@@ -3,7 +3,6 @@
 /**
  * Generates PDFs from HTML
  * Uses wkhtmltopdf on the backend.
- * See http://code.google.com/p/wkhtmltopdf/ for details about the options
  *
  * // Example:
  *   $pdf = new PDFGenerator();
@@ -11,8 +10,6 @@
  *   $pdf->setPageSize('57.15mm', '12.7mm');
  *   $pdf->setMargins(0);
  *   $pdf->streamToClient();
- *
- * @author Danny Beardsley
  */
 class PDFGenerator {
    // Output modes
